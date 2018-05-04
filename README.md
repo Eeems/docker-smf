@@ -2,8 +2,8 @@
 Docker image for SMF
 
 # How to run
-`docker run -d -p 8500:80 eeems/smf`
+`docker run -p 8500:80 -e 'SMF_BOARD_URL=http://localhost:8500' eeems/smf`
 
-Access http://localhost:8500 in your browser and continue with setup.
+Access the site with <http://localhost:8500>
 
-Mysql information: 127.0.0.1 root:rootpass
+Admin credentials: `Admin/admin`

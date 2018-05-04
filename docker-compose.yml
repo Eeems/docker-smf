@@ -6,3 +6,5 @@ services:
     image: smf
     ports:
       - "8500:80"
+    environment:
+      - SMF_BOARD_URL=http://localhost:8500/
