@@ -2,8 +2,7 @@ version: '3'
 services:
   smf:
     container_name: smf
-    build: .
-    image: smf
+    image: eeems/smf
     ports:
       - "8500:80"
     environment:
